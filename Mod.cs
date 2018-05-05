@@ -93,7 +93,7 @@ namespace ExperienceBars
 
             int x = 10;
             int y = 10;
-            if (Game1.player.currentLocation != null && Game1.player.currentLocation.name == "UndergroundMine")
+            if (Game1.player.currentLocation != null && Game1.player.currentLocation.Name == "UndergroundMine")
                 y += 75;
             for ( int i = 0; i < (renderLuck ? 6 : 5); ++i )
             {
