@@ -65,7 +65,7 @@ namespace ExperienceBars
                 Game1.player.combatLevel.Value,
                 Game1.player.luckLevel.Value
             };
-            NetArray<int, NetInt> exp = Game1.player.experiencePoints;
+            IList<int> exp = Game1.player.experiencePoints;
 
             bool foundLevelExtender = false;
             if (Helper.ModRegistry.IsLoaded("Devin Lematty.Level Extender") && !stopLevelExtenderCompat)
